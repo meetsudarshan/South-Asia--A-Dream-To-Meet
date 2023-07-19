@@ -1,0 +1,32 @@
+.Navbar {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .Navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .NavItem {
+    margin-right: 10px;
+  }
+  
+  .NavLink {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .NavLink:hover {
+    color: #555;
+  }
+  
+  .active .NavLink {
+    font-weight: bold;
+  }
+  
