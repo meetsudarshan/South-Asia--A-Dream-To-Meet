@@ -1,0 +1,53 @@
+/* page.css */
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+    background-image: url('../../public/images/Undivided_India.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .column {
+    background-color: #f8f8f8;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .india {
+    background-color: #f6e3c9;
+    color: #7d493c;
+  }
+  
+  .kashmir {
+    background-color: #e8edf3;
+    color: #2f5770;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-image: url('../../public/images/Undivided_India.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Set minimum height to cover the entire viewport */
+  }
+  
+  .card {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    max-width: 200px; /* Set a maximum width for the cards */
+    margin: 1rem; /* Add margin to create space between cards */
+  }
+  
